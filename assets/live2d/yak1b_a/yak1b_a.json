@@ -1,0 +1,36 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"yak1b_a.moc",
+	"textures":[
+		"yak1b_a/yak1b_a03",
+		"yak1b_a/yak1b_a01"
+	],
+	"expressions":[
+		{"name":"anger","file":"expressions/anger.exp.json"},
+		{"name":"engage","file":"expressions/engage.exp.json"},
+		{"name":"happy","file":"expressions/happy.exp.json"},
+		{"name":"hit","file":"expressions/hit.exp.json"},
+		{"name":"normal","file":"expressions/normal.exp.json"},
+		{"name":"proud","file":"expressions/proud.exp.json"},
+		{"name":"sad","file":"expressions/sad.exp.json"},
+		{"name":"shy","file":"expressions/shy.exp.json"},
+		{"name":"silent","file":"expressions/silent.exp.json"},
+		{"name":"smile","file":"expressions/smile.exp.json"},
+		{"name":"special","file":"expressions/special.exp.json"}
+	],
+	"motions":{
+		"fly_move":[
+			{"file":"motions/fly_move.mtn"}
+		],
+		"idle":[
+			{"file":"motions/idle.mtn"}
+		],
+		"fly_attack":[
+			{"file":"motions/fly_attack.mtn"}
+		],
+		"fly_attack2":[
+			{"file":"motions/fly_attack2.mtn","fade_in":0,"fade_out":0}
+		]
+	},
+	"physics":"physics.json"
+}

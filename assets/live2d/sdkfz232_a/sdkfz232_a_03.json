@@ -1,0 +1,36 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"sdkfz232_a_03.moc",
+	"textures":[
+		"sdkfz232_a/paluoma01_a0301",
+		"sdkfz232_a/paluoma01_a0302",
+		"sdkfz232_a/paluoma01_a0303",
+		"sdkfz232_a/paluoma01_a0304",
+		"sdkfz232_a/paluoma01_a0305"
+	],
+	"expressions":[
+		{"name":"anger","file":"expressions/anger_03.exp.json"},
+		{"name":"engage","file":"expressions/engage_03.exp.json"},
+		{"name":"happy","file":"expressions/happy_03.exp.json"},
+		{"name":"hit","file":"expressions/hit_03.exp.json"},
+		{"name":"normal","file":"expressions/normal_03.exp.json"},
+		{"name":"proud","file":"expressions/proud_03.exp.json"},
+		{"name":"sad","file":"expressions/sad_03.exp.json"},
+		{"name":"shy","file":"expressions/shy_03.exp.json"},
+		{"name":"silent","file":"expressions/silent_03.exp.json"},
+		{"name":"smile","file":"expressions/smile_03.exp.json"},
+		{"name":"special","file":"expressions/special_03.exp.json"}
+	],
+	"motions":{
+		"idle":[
+			{"file":"motions/idle.mtn"}
+		],
+		"ready_attack":[
+			{"file":"motions/ready_attack.mtn","fade_in":0,"fade_out":0}
+		],
+		"attack":[
+			{"file":"motions/attack_03.mtn","fade_in":0,"fade_out":0}
+		]
+	},
+	"physics":"physics_03.json"
+}

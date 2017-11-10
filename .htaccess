@@ -1,0 +1,51 @@
+# Do not remove this line or mod_rewrite rules and search engine friendly URLs will stop working
+RewriteBase /
+
+# protect the htaccess file
+<files .htaccess>
+order allow,deny
+deny from all
+</files>
+
+# protection de la lecture des répertoires
+Options -Indexes
+
+#Compression
+<IfModule mod_deflate.c>
+<FilesMatch "\.(html|php|txt|xml|js)$">
+SetOutputFilter DEFLATE
+</FilesMatch>
+</IfModule>
+
+## contrôle du cache navigateur - Expire headers
+<IfModule mod_expires.c>
+	ExpiresActive On
+	ExpiresDefault "access plus 7200 seconds"
+	ExpiresByType image/jpg 			"access plus 1 week"
+	ExpiresByType image/jpeg 			"access plus 1 week"
+	ExpiresByType image/png 			"access plus 1 week"
+	ExpiresByType image/gif 			"access plus 1 week"
+	ExpiresByType image/svg+xml			"access plus 1 week"
+	AddType image/x-icon .ico
+	ExpiresByType image/ico 			"access plus 1 week"
+	ExpiresByType image/icon 			"access plus 1 week"
+	ExpiresByType image/x-icon 			"access plus 1 week"
+	ExpiresByType text/javascript 		"access plus 1 week"
+	ExpiresByType text/html 			"access plus 7200 seconds"
+	ExpiresByType application/xhtml+xml 	"access plus 7200 seconds"
+	ExpiresByType application/javascript 	"access plus 1 week"
+	ExpiresByType application/x-javascript 	"access plus 1 week"
+	ExpiresByType application/x-shockwave-flash "access plus 1 week"
+</IfModule>
+
+<IfModule mod_headers.c>
+
+<FilesMatch "\\.(ico|jpe?g|png|gif|swf)$">
+Header set Cache-Control "max-age=2592000, public"
+</FilesMatch>
+
+<FilesMatch "\\.(x?html?|php)$">
+Header set Cache-Control "max-age=600, private, must-revalidate"
+</FilesMatch>
+
+</IfModule>

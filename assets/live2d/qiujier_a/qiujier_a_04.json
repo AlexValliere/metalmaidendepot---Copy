@@ -1,0 +1,34 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"qiujier_a_04.moc",
+	"textures":[
+		"qiujier_a/qiujier_a_0403",
+		"qiujier_a/qiujier_a_0401",
+		"qiujier_a/qiujier_a_0404"
+	],
+	"expressions":[
+		{"name":"anger","file":"expressions/anger_04.exp.json"},
+		{"name":"engage","file":"expressions/engage_04.exp.json"},
+		{"name":"happy","file":"expressions/happy_04.exp.json"},
+		{"name":"hit","file":"expressions/hit_04.exp.json"},
+		{"name":"normal","file":"expressions/normal_04.exp.json"},
+		{"name":"proud","file":"expressions/proud_04.exp.json"},
+		{"name":"sad","file":"expressions/sad_04.exp.json"},
+		{"name":"shy","file":"expressions/shy_04.exp.json"},
+		{"name":"silent","file":"expressions/silent_04.exp.json"},
+		{"name":"smile","file":"expressions/smile_04.exp.json"},
+		{"name":"special","file":"expressions/special_04.exp.json"}
+	],
+	"motions":{
+		"attack":[
+			{"file":"motions/attack.mtn","fade_in":0,"fade_out":0}
+		],
+		"ready_attack":[
+			{"file":"motions/ready_attack.mtn","fade_in":0,"fade_out":0}
+		],
+		"idle":[
+			{"file":"motions/idle.mtn"}
+		]
+	},
+	"physics":"physics_04.json"
+}

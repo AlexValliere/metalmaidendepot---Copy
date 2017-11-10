@@ -1,0 +1,12 @@
+section.view_shells img.filter_icon {
+	height: 75px;
+}
+
+section.view_shells div.filter_icon {
+	display: inline-block;
+	opacity: 0.5;
+}
+
+section.view_shells div.filter_icon.selected {
+	opacity: 1;
+}

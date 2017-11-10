@@ -1,0 +1,33 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"m7mushishi_a_03.moc",
+	"textures":[
+		"m7mushishi_a/m7mushishi_a_0301",
+		"m7mushishi_a/m7mushishi_a_0303"
+	],
+	"expressions":[
+		{"name":"anger","file":"expressions/anger_03.exp.json"},
+		{"name":"engage","file":"expressions/engage_03.exp.json"},
+		{"name":"happy","file":"expressions/happy_03.exp.json"},
+		{"name":"hit","file":"expressions/hit_03.exp.json"},
+		{"name":"normal","file":"expressions/normal_03.exp.json"},
+		{"name":"proud","file":"expressions/proud_03.exp.json"},
+		{"name":"sad","file":"expressions/sad_03.exp.json"},
+		{"name":"shy","file":"expressions/shy_03.exp.json"},
+		{"name":"silent","file":"expressions/silent_03.exp.json"},
+		{"name":"smile","file":"expressions/smile_03.exp.json"},
+		{"name":"special","file":"expressions/special_03.exp.json"}
+	],
+	"motions":{
+		"ready_attack":[
+			{"file":"motions/ready_attack.mtn","fade_in":0,"fade_out":0}
+		],
+		"attack":[
+			{"file":"motions/attack.mtn","fade_in":0,"fade_out":0}
+		],
+		"idle":[
+			{"file":"motions/idle.mtn"}
+		]
+	},
+	"physics":"physics_03.json"
+}

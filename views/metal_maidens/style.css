@@ -1,0 +1,593 @@
+/*
+ *
+ *	Index.php
+ *
+*/
+section.metal_maidens_index .nation_title {
+	text-align: center;
+	font-size: x-large;
+	background-color: #000000;
+	margin-top: 10px;
+}
+
+section.metal_maidens_index .category-block:first-child	{ border-top: 1px solid #000000; }
+section.metal_maidens_index .category-block				{
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	border-left: 1px solid #000000;
+}
+section.metal_maidens_index .category-block.atg	{ background-color: rgba(255, 120, 255, 0.05); }
+section.metal_maidens_index .category-block.ht		{ background-color: rgba(120, 5, 255, 0.05); }
+section.metal_maidens_index .category-block.lav	{ background-color: rgba(25, 255, 255, 0.05); }
+section.metal_maidens_index .category-block.lt		{ background-color: rgba(10, 170, 0, 0.05); }
+section.metal_maidens_index .category-block.mt		{ background-color: rgba(255, 255, 30, 0.05); }
+section.metal_maidens_index .category-block.spg	{ background-color: rgba(255, 80, 0, 0.05); }
+
+section.metal_maidens_index .category-block div.category-icon	{ text-align: center; }
+section.metal_maidens_index .category-block img.category-icon	{
+	height: 50px;
+	margin: 20px 0;
+}
+
+section.metal_maidens_index .metal_maiden_block {
+	text-align: center;
+	min-height: 175px;
+}
+section.metal_maidens_index .metal_maiden_block p			{ padding-top: 6px; }
+section.metal_maidens_index .metal_maiden_block p.blue		{ color: #88CDFF; }
+section.metal_maidens_index .metal_maiden_block p.purple	{ color: #DA24DA; }
+section.metal_maidens_index .metal_maiden_block p.gold		{ color: #FFB426; }
+section.metal_maidens_index .metal_maiden_block a:hover	{ text-decoration: none; }
+
+section.metal_maidens_index img.portrait	{
+	border-width: 1px;
+	border-style: ridge;
+	height: 115px;
+	max-width: 125px;
+}
+
+/*
+ *
+ *	View.php
+ *
+*/
+
+section.view_tank .timestamps {
+	float: right;
+	text-align: right;
+}
+
+span.profile_version {
+	border-width: 2px;
+	border-style: outset;
+	border-color: yellowgreen;
+	border-radius: 5px;
+	background-color: yellowgreen;
+	color: black;
+	padding: 1px 5px;
+}
+
+
+section.view_tank img.icon-size-1			{ height: 25px; }
+section.view_tank img.icon-size-2			{ height: 30px; }
+section.view_tank img.icon-size-3			{ height: 35px; }
+section.view_tank img.missile-icon-size	{ width: 60px; }
+
+section.view_tank .row.equipment-block		{ padding-top: 20px; }
+
+/*
+ *
+ *	View.php / Armor
+ *
+*/
+section.view_tank div.armor_icon img {
+	max-height: 35px;
+}
+
+/*
+ *
+ *	View.php / Statistic
+ *
+*/
+section.view_tank table.attribute {
+	height: 58px;
+}
+
+section.view_tank table.attribute.performance {
+	height: 80px;
+}
+
+section.view_tank table.attribute td:first-child {
+	width: 65px;
+	text-align: right;
+	vertical-align: middle;
+}
+
+section.view_tank table.attribute.performance td:first-child {
+	width: 80px;
+	text-align: center;
+}
+
+section.view_tank table.attribute td.hidden_stat {
+	width: 65px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+section.view_tank table.attribute td:nth-child(2) {
+	width: 55px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+section.view_tank table.attribute td:last-child {
+	vertical-align: middle;
+}
+
+section.view_tank .attribute_lvl60			{ color: Crimson; }
+section.view_tank .attribute_rank			{ color: #03A9F4; }
+section.view_tank .attribute_delta_median	{ color: #4CAF50; }
+
+/*
+ *
+ *	View.php / Research
+ *
+*/
+
+section.view_tank .research_sub_block {
+	text-align: center;
+	display: inline-block;
+	color: white;
+	min-height: 105px;
+}
+
+section.view_tank .research_sub_block div.tank_portrait {
+	position: relative;
+	display: inline-block;
+}
+
+section.view_tank .research_sub_block div.tank_portrait img.tank_portrait {
+	max-height: 90px;
+}
+
+section.view_tank .research_sub_block div.tank_portrait img.tech {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 20px;
+}
+
+/*
+ *
+ *	View.php / Requirements
+ *
+*/
+
+section.view_tank .requirements_block {
+	margin-bottom: 35px;
+}
+
+section.view_tank .required_supply {
+	max-height: 150px;
+}
+
+section.view_tank .label.required_commander_level {
+	margin-bottom: 15px;
+	display: inline-block;
+	font-size: 90%;
+	padding: 0.4em 0.6em;
+}
+
+section.view_tank .requirements_sub_block {
+	text-align: center;
+	display: inline-block;
+	color: white;
+	min-height: 105px;
+}
+
+section.view_tank .requirements_sub_block p.required_tank_level {
+	border-width: 0 0 1px 0;
+	border-style: solid;
+}
+
+section.view_tank .requirements_sub_block div.tank_portrait {
+	position: relative;
+	display: inline-block;
+}
+
+section.view_tank .requirements_sub_block div.tank_portrait img.tech {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 20px;
+}
+
+section.view_tank .requirements_sub_block .required_item {
+	text-align: center;
+	display: inline-block;
+	position: absolute;
+	margin: auto;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+
+section.view_tank .requirements_sub_block .item_rank {
+	position: absolute;
+	left: 10%;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	direction: rtl;
+	font-size: x-large;
+	color: gold;
+	text-shadow: rgb(0, 0, 0) -2px 1px 0px;
+	font-weight: bold;
+}
+
+section.view_tank .requirements_sub_block .item_slot {
+    position: absolute;
+    top: 2em;
+    height: 30px;
+    left: 10%;
+}
+
+section.view_tank .requirements_sub_block .item_quantity {
+	position: absolute;
+	bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	margin-bottom: 0;
+}
+
+/*
+ *
+ *	Statistics.php
+ *
+*/
+section.view_tanks_statistics table.statistics td {
+	vertical-align: middle;
+}
+
+section.view_tanks_statistics img.filter_icon {
+	height: 37px;
+}
+
+section.view_tanks_statistics div.filter_icon {
+	display: inline-block;
+	opacity: 0.5;
+}
+
+section.view_tanks_statistics div.filter_icon.selected {
+	opacity: 1;
+}
+
+section.view_tanks_statistics .current_category_icon {
+	height: 2em;
+}
+
+/*
+ *
+ *	tank_sheet.php
+ *
+*/
+section.tank_sheet .current_category_icon {
+	height: 2em;
+}
+
+section.tank_sheet tr:hover
+{
+	background-color: #252525;
+}
+
+section.tank_sheet th, section.tank_sheet th a {
+	color: #ffffff;
+}
+
+/*
+ *
+ *	edit.php
+ *
+*/
+.edit_metal_maiden legend { color: white; }
+
+/*
+ *
+ *	tree.php
+ *
+*/
+table.metal_maiden_tree_requirement {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+table.metal_maiden_tree_requirement th.tank_portrait {
+	width: 140px;
+	text-align: center;
+	font-weight: normal;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+td.metal_maiden_tree_requirement_subtable {
+	width: 400px;
+	padding: 0 30px;
+}
+
+td.metal_maiden_tree_requirement_subtable.gold_rarity {
+	border: 1px solid gold;
+	background-color: rgba(130, 112, 15, 0.75);
+}
+
+td.metal_maiden_tree_requirement_subtable.purple_rarity {
+	border: 1px solid purple;
+	background-color: rgba(88,10,88,0.75);
+}
+
+td.metal_maiden_tree_requirement_subtable.blue_rarity {
+	border: 1px solid dodgerblue;
+	background-color: rgb(10, 65, 109);
+}
+
+td.metal_maiden_tree_requirement_subtable > .row > div {
+	display: inline-block;
+	float: none;
+	vertical-align: middle;
+}
+
+@media(max-width:767px) {
+	td.metal_maiden_tree_requirement_subtable {
+		padding: 0 20px;
+		width: auto;
+	}
+
+	td.metal_maiden_tree_requirement_subtable > .row > div:last-child {
+		border-bottom: 1px dashed white;
+	}
+
+	td.metal_maiden_tree_requirement_subtable > .row:last-child > div:last-child {
+		border-bottom: 0;
+	}
+}
+
+/*
+ *
+ *	forms / chassis.php
+ *
+*/
+table.chassis_form th {
+	border-bottom: 1px solid white;
+}
+
+table.chassis_form td {
+	padding: 5px; 
+}
+
+/*
+ *
+ *	advanced_search.php
+ *
+*/
+section.advanced_search form div.row.filters {
+	vertical-align: top;
+}
+
+section.advanced_search form div.filter_icon {
+	display: inline-block;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #414141;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 5px;
+	width: 90px;
+	height: 90px;
+	text-align: center;
+	vertical-align: top;
+}
+
+section.advanced_search form div.filter_icon.filter_armor_icon {
+	height: 125px;
+}
+
+section.advanced_search form div.filter_icon.filter_chassis_icon {
+	height: 120px;
+}
+
+section.advanced_search form div.filter_icon.filter_engine_icon {
+	height: 110px;
+}
+
+section.advanced_search form div.filter_icon.filter_shell_icon {
+	height: 110px;
+}
+
+section.advanced_search form div.filter_icon.active {
+	border-style: solid;
+	border-color: #4a9cc3;
+	background-color: rgba(35, 133, 179, 0.25);
+}
+
+section.advanced_search form div.filter_icon img.filter_icon_category {
+	max-width: 100%;
+	max-height: 35px;
+	margin: auto;
+}
+
+section.advanced_search form div.filter_icon p {
+	font-size: smaller;
+	margin-top: 10px;
+	overflow-wrap: break-word;
+}
+
+section.advanced_search .table td.lifestyle_skills {
+	width: 45px;
+	padding: 2px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+section.advanced_search .table td.lifestyle_skills img {
+	max-width: 1.3em;
+	display: inline;
+}
+
+section.advanced_search table.advanced_search_tank_table {
+	min-height: 80px;
+}
+
+section.advanced_search .table td.tank_portrait {
+	width: 80px;
+}
+
+section.advanced_search .table td.tank_portrait img {
+	max-height: 60px;
+}
+
+section.advanced_search .table img.tank_icons {
+	max-height: 25px;
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+section.metal-maiden-view								{ padding: 0px 20px 20px 0px; }
+section.metal-maiden-view .profile table td				{ padding: 2px 5px; }
+section.metal-maiden-view .profile img.category-icon	{ max-height: 38px; }
+section.metal-maiden-view .profile img.flag-icon		{ max-height: 40px; }
+section.metal-maiden-view .profile span.tank			{ font-weight: bold; }
+section.metal-maiden-view div.block-wrapper				{ margin-top: 15px; }
+section.metal-maiden-view table.row2 td,
+section.metal-maiden-view table.row2 th					{ padding: 2px 15px 2px 0; }
+section.metal-maiden-view img.slot-icon					{ max-height: 30px; }
+section.metal-maiden-view img.lifestyle-skill-icon		{ max-height: 25px; }
+section.metal-maiden-view img.shell-icon				{ max-height: 15px; }
+section.metal-maiden-view table.attribute				{ height: 58px; }
+section.metal-maiden-view table.attribute,
+section.metal-maiden-view table.attribute th,
+section.metal-maiden-view table.attribute td			{ border-color: #cccccc; }
+
+section.metal-maiden-view table.attribute td:first-child {
+	width: 65px;
+	text-align: right;
+	vertical-align: middle;
+}
+
+section.metal-maiden-view table.attribute td.hidden-attribute {
+	width: 65px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+section.metal-maiden-view table.attribute td:nth-child(2) {
+	width: 50px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+section.metal-maiden-view table.attribute td:last-child {
+	vertical-align: middle;
+}
+
+section.metal-maiden-view .attribute-lvl60			{ color: Crimson; }
+section.metal-maiden-view .attribute-rank			{ color: #03A9F4; }
+section.metal-maiden-view .attribute-delta-median	{ color: #4CAF50; }
+
+section.metal-maiden-view .research_sub_block {
+	text-align: center;
+	display: inline-block;
+	color: white;
+	min-height: 105px;
+}
+
+section.metal-maiden-view .research_sub_block div.tank_portrait {
+	position: relative;
+	display: inline-block;
+}
+
+section.metal-maiden-view .research_sub_block div.tank_portrait img.tank_portrait {
+	max-height: 90px;
+}
+
+section.metal-maiden-view .research_sub_block div.tank_portrait img.tech {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 20px;
+}
+
+section.metal-maiden-view .requirements-sub-block div.tank-portrait {
+	position: relative;
+	display: inline-block;
+}
+
+section.metal-maiden-view .requirements-sub-block div.tank-portrait img.rank {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 20px;
+}
+
+section.metal-maiden-view .requirements-sub-block {
+	text-align: center;
+	display: inline-block;
+	color: white;
+	min-height: 105px;
+}
+
+section.metal-maiden-view .requirements-sub-block p.required-tank-level {
+	border-width: 0 0 1px 0;
+	border-style: solid;
+}
+
+section.metal-maiden-view .requirements-sub-block .required-item {
+	text-align: center;
+	display: inline-block;
+	position: absolute;
+	margin: auto;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+
+section.metal-maiden-view .requirements-sub-block .item-quantity {
+	position: absolute;
+	bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	margin-bottom: 0;
+}
+
+section.metal-maiden-view .requirements-sub-block .item-rank {
+	position: absolute;
+	left: 10%;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	direction: rtl;
+	font-size: x-large;
+	color: gold;
+	text-shadow: rgb(0, 0, 0) -2px 1px 0px;
+	font-weight: bold;
+}
+
+section.metal-maiden-view .requirements-sub-block .item-slot {
+    position: absolute;
+    top: 2em;
+    height: 30px;
+    left: 10%;
+}

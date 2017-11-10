@@ -1,0 +1,27 @@
+{
+	"type":"Live2D Expression",
+	"fade_in":500,
+	"fade_out":500,
+	"params":[
+		{"id":"PARAM_ANGLE_X","val":3.12},
+		{"id":"PARAM_ANGLE_Y","val":-25.2},
+		{"id":"PARAM_ANGLE_Z","val":18.96,"def":15},
+		{"id":"PARAM_EYE_L_OPEN","val":0.78,"def":1},
+		{"id":"PARAM_EYE_L_SMILE","val":0},
+		{"id":"PARAM_EYE_R_OPEN","val":0.76,"def":1},
+		{"id":"PARAM_EYE_R_SMILE","val":0},
+		{"id":"PARAM_EYE_BALL_X","val":0.89},
+		{"id":"PARAM_EYE_BALL_Y","val":-1},
+		{"id":"PARAM_BROW_L_Y","val":-0.54},
+		{"id":"PARAM_BROW_R_Y","val":-0.04},
+		{"id":"PARAM_BROW_L_X","val":0.14},
+		{"id":"PARAM_BROW_R_X","val":-0.41},
+		{"id":"PARAM_BROW_L_ANGLE","val":-0.3},
+		{"id":"PARAM_BROW_R_ANGLE","val":0.15},
+		{"id":"PARAM_BROW_L_FORM","val":1},
+		{"id":"PARAM_BROW_R_FORM","val":-1},
+		{"id":"PARAM_MOUTH_FORM","val":1},
+		{"id":"PARAM_MOUTH_OPEN_Y","val":0.78},
+		{"id":"PARAM_CHEEK","val":0}
+	]
+}

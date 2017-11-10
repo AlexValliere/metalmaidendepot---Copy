@@ -1,0 +1,34 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"centurion_a.moc",
+	"textures":[
+		"centurion_a/centurion_a01",
+		"centurion_a/centurion_a02",
+		"centurion_a/centurion_a03"
+	],
+	"expressions":[
+		{"name":"engage","file":"expressions/engage.exp.json"},
+		{"name":"happy","file":"expressions/happy.exp.json"},
+		{"name":"hit","file":"expressions/hit.exp.json"},
+		{"name":"normal","file":"expressions/normal.exp.json"},
+		{"name":"proud","file":"expressions/proud.exp.json"},
+		{"name":"sad","file":"expressions/sad.exp.json"},
+		{"name":"shy","file":"expressions/shy.exp.json"},
+		{"name":"silent","file":"expressions/silent.exp.json"},
+		{"name":"smile","file":"expressions/smile.exp.json"},
+		{"name":"special","file":"expressions/special.exp.json"},
+		{"name":"anger","file":"expressions/anger.exp.json"}
+	],
+	"motions":{
+		"attack":[
+			{"file":"motions/attack.mtn","fade_in":0,"fade_out":0}
+		],
+		"idle":[
+			{"file":"motions/idle.mtn"}
+		],
+		"ready_attack":[
+			{"file":"motions/ready_attack.mtn","fade_in":0,"fade_out":0}
+		]
+	},
+	"physics":"physics.json"
+}

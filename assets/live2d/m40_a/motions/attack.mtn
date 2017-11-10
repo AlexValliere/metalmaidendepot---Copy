@@ -1,0 +1,10 @@
+# Live2D Animator Motion Data
+$fps=5
+
+$fadein=1000
+
+$fadeout=1000
+
+PARAM_ANGLE_X=-30,-19.27,-2.11,13.92,25.49,30
+PARAM_ANGLE_Y=0,-0.18,-0.46,-0.73,-0.92,-1
+PARAM_BODY_ANGLE_X=-10,-6.42,-0.7,4.64,8.5,10

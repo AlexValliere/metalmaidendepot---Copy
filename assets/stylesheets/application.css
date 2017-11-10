@@ -1,0 +1,57 @@
+body {
+	background-color: #1c1c1c;
+	color: #ffffff;
+}
+
+footer	{ margin-top: 20px; }
+
+button, input[type="submit"] {
+	background-color: #1D6088;
+	margin-bottom: 25px;
+	color: #ffffff;
+}
+
+pre {
+	background-color: #009688;
+	color: #000000;
+	border: 0;
+}
+
+ol.breadcrumb			{ background-color: #009688; }
+ol.breadcrumb li a		{ color: #000000; }
+ol.breadcrumb li.active	{ color: #FFFFFF; }
+
+.anchor	{
+	display: block;
+	height: 50px; /*same height as header*/
+	margin-top: -50px; /*same height as header*/
+	visibility: hidden;
+}
+
+.table-width-auto {
+	width: auto !important;
+}
+
+.text-align-center		{ text-align: center; }
+
+.blue_rarity_border		{ border-color: #03A9F4; }
+.purple_rarity_border	{ border-color: #9C27B0; }
+.gold_rarity_border		{ border-color: gold; }
+.blue_rarity_text, .blue_rarity_text:hover		{ color: #03A9F4; }
+.purple_rarity_text, .purple_rarity_text:hover	{ color: rgb(218, 49, 218); }
+.gold_rarity_text, .gold_rarity_text:hover		{ color: gold; }
+
+.positive_value_sign	{ color: yellowgreen; }
+.negative_value_sign	{ color: orangered; }
+
+table.table-hover tr:hover {
+	background-color: #0f0f0f;
+}
+
+table th.dark {
+	background-color: #0f0f0f;
+}
+
+a.glyphicon_active {
+	color: yellowgreen;
+}

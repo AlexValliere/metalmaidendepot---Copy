@@ -1,0 +1,34 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"m2_a.moc",
+	"textures":[
+		"m2_a/m2_a01",
+		"m2_a/m2_a03",
+		"m2_a/m2_a04"
+	],
+	"expressions":[
+		{"name":"happy","file":"expressions/happy.exp.json"},
+		{"name":"hit","file":"expressions/hit.exp.json"},
+		{"name":"normal","file":"expressions/normal.exp.json"},
+		{"name":"proud","file":"expressions/proud.exp.json"},
+		{"name":"sad","file":"expressions/sad.exp.json"},
+		{"name":"shy","file":"expressions/shy.exp.json"},
+		{"name":"silent","file":"expressions/silent.exp.json"},
+		{"name":"smile","file":"expressions/smile.exp.json"},
+		{"name":"special","file":"expressions/special.exp.json"},
+		{"name":"anger","file":"expressions/anger.exp.json"},
+		{"name":"engage","file":"expressions/engage.exp.json"}
+	],
+	"motions":{
+		"attack":[
+			{"file":"motions/attack.mtn"}
+		],
+		"ready_attack":[
+			{"file":"motions/ready_attack.mtn"}
+		],
+		"idle":[
+			{"file":"motions/idle.mtn"}
+		]
+	},
+	"physics":"physics.json"
+}

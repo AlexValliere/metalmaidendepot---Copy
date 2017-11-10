@@ -1,0 +1,35 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"yeniu_a.moc",
+	"textures":[
+		"yeniu_a/yeniu01_a01",
+		"yeniu_a/yeniu01_a02",
+		"yeniu_a/yeniu01_a03",
+		"yeniu_a/yeniu01_a04"
+	],
+	"expressions":[
+		{"name":"engage","file":"expressions/engage.exp.json"},
+		{"name":"normal","file":"expressions/normal.exp.json"},
+		{"name":"happy","file":"expressions/happy.exp.json"},
+		{"name":"shy","file":"expressions/shy.exp.json"},
+		{"name":"hit","file":"expressions/hit.exp.json"},
+		{"name":"sad","file":"expressions/sad.exp.json"},
+		{"name":"proud","file":"expressions/proud.exp.json"},
+		{"name":"special","file":"expressions/special.exp.json"},
+		{"name":"anger","file":"expressions/anger.exp.json"},
+		{"name":"smile","file":"expressions/smile.exp.json"},
+		{"name":"silent","file":"expressions/silent.exp.json"}
+	],
+	"motions":{
+		"idle":[
+			{"file":"motions/idle.mtn"}
+		],
+		"attack":[
+			{"file":"motions/attack.mtn"}
+		],
+		"ready_attack":[
+			{"file":"motions/ready_attack.mtn"}
+		]
+	},
+	"physics":"physics.json"
+}
